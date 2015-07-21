@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.yuji.semesterproject.AboutActivity">
+
+    <TextView android:text="Friend Finder" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleText"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.00"
+        android:id="@+id/versionNumberText"
+        android:layout_below="@+id/titleText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is brought to you by \nKimmy Luong and Eric Komachi"
+        android:id="@+id/aboutText"
+        android:layout_below="@+id/versionNumberText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to Home"
+        android:id="@+id/devPageButton"
+        android:layout_below="@+id/aboutText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:onClick="returnHome" />
+
+</RelativeLayout>

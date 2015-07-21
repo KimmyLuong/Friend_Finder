@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.yuji.semesterproject.BeFoundActivity">
+    <item android:id="@+id/about_app" android:title="@string/about_app"
+        android:orderInCategory="101" app:showAsAction="never" />
+</menu>
